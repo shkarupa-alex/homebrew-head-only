@@ -13,6 +13,10 @@ class Word2vec < Formula
 
     system "make"
     bin.install "word2vec"
+    bin.install "word2phrase"
+    bin.install "distance"
+    bin.install "word-analogy"
+    bin.install "compute-accuracy"
   end
 
   test do
